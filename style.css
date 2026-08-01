@@ -1,0 +1,137 @@
+.dcc-hero .wgl-button {
+    background: linear-gradient( 90deg, #4a96fc, #40d0d2);
+}
+
+.homesec2 {
+    background-image: url(./images/02/Sec02Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 33% 0% 2%;
+}
+
+.elementor-215 .elementor-element.elementor-element-cdf4adf .dblh__subtitle {
+    box-shadow: 0px 0px 15px 2px #366abd inset;
+}
+
+.homesec3 .elementor-element-cdf4adf h4 {
+    font-size: 34px;
+}
+
+.counter-section {
+    background: #07051B;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+
+/* Left Card */
+
+.wallet-card {
+    background: linear-gradient(90deg, #4B84F8, #43D4C7);
+    border-radius: 18px;
+    padding: 60px 50px;
+    color: #fff;
+    max-width: 45%;
+    transition: .4s;
+}
+
+.wallet-card img {
+    width: 100px;
+}
+
+.wallet-card:hover {
+    transform: translateY(-8px);
+}
+
+.wallet-icon {
+    width: 70px;
+    margin-bottom: 65px;
+}
+
+.counter-section h2 {
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.wallet-card p {
+    font-size: 28px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+/* Right */
+
+.counter-number {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 100%;
+    max-width: 280px;
+    height: 2px;
+    background: #2CC8D9;
+    margin-bottom: 18px;
+}
+
+.counter-text {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.right-image {
+    max-width: 420px;
+    width: 100%;
+}
+
+
+/* Tablet */
+
+@media(max-width:991px) {
+    .wallet-card {
+        margin: auto;
+    }
+    .counter-number {
+        font-size: 60px;
+    }
+    .counter-text {
+        font-size: 22px;
+    }
+    .line {
+        margin: 0 auto 20px;
+    }
+}
+
+
+/* Mobile */
+
+@media(max-width:767px) {
+    .counter-section {
+        padding: 70px 0;
+    }
+    .wallet-card {
+        max-width: 100%;
+    }
+    .wallet-card h2 {
+        font-size: 52px;
+    }
+    .counter-number {
+        font-size: 48px;
+    }
+    .counter-text {
+        font-size: 18px;
+    }
+    .wallet-icon {
+        width: 60px;
+        margin-bottom: 30px;
+    }
+    .right-image {
+        margin-top: 20px;
+    }
+}
