@@ -1,3 +1,30 @@
 {
-    "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "files.exclude": {
+    "**/.git": true,
+    "homepage-5/https_/**": true,
+    "wp-content/cache/**": true,
+    "wp-content/uploads/**": true,
+    "wp-includes/**": true
+  },
+  "search.exclude": {
+    "homepage-5/https_/**": true,
+    "wp-content/cache/**": true,
+    "wp-content/uploads/**": true,
+    "wp-includes/**": true
+  },
+  "files.watcherExclude": {
+    "homepage-5/https_/**": true,
+    "wp-content/cache/**": true,
+    "wp-content/uploads/**": true,
+    "wp-includes/**": true
+  },
+  "editor.largeFileOptimizations": true,
+  "search.quickOpen.includeSymbols": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "explorer.autoReveal": false,
+  "extensions.ignoreRecommendations": true,
+  "telemetry.telemetryLevel": "off",
+  "window.titleBarStyle": "custom"
 }

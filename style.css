@@ -20,7 +20,7 @@
 
 .counter-section {
     background: #07051B;
-    padding: 100px 0;
+    padding-bottom: 35%;
     overflow: hidden;
 }
 
@@ -133,5 +133,101 @@
     }
     .right-image {
         margin-top: 20px;
+    }
+}
+
+.homesec3-3 {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: -55%;
+}
+
+.homesec3-3 img {
+    width: 100%;
+}
+
+.elementor-215 .elementor-element.elementor-element-b098b93 {
+    padding-top: 20%;
+}
+
+.security-slider {
+    padding: 90px 0;
+    background: radial-gradient(circle at top, #826dff55 0%, transparent 45%), linear-gradient(180deg, #171237, #09051a);
+    overflow: hidden;
+    .swiper {
+        width: 100%;
+        padding-bottom: 80px;
+        overflow: visible;
+    }
+    .swiper-slide {
+        width: 340px;
+        transition: all .5s ease;
+    }
+    .swiper-slide img {
+        width: 100%;
+        border-radius: 18px;
+        display: block;
+        transition: .5s;
+    }
+    .swiper-slide:not(.swiper-slide-active) {
+        opacity: .45;
+        transform: scale(.82);
+    }
+    .swiper-slide-active {
+        opacity: 1;
+        transform: scale(1);
+    }
+    .swiper-pagination {
+        bottom: 0!important;
+    }
+    .swiper-pagination-bullet {
+        width: 55px;
+        height: 3px;
+        border-radius: 30px;
+        background: #4d439b;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        background: #58d7ff;
+    }
+    @media(max-width:992px) {
+        .swiper-slide {
+            width: 280px;
+        }
+    }
+    @media(max-width:768px) {
+        .security-slider {
+            padding: 60px 0;
+        }
+        .swiper-slide {
+            width: 220px;
+        }
+    }
+    @media(max-width:576px) {
+        .swiper-slide {
+            width: 190px;
+        }
+    }
+}
+
+.elementor-element-3827170 img {
+    width: 200px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media i {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .homesec2 {
+        background-size: contain;
+    }
+    .elementor-215 .elementor-element.elementor-element-b098b93 {
+        padding-top: 67%;
     }
 }
