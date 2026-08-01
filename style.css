@@ -223,11 +223,19 @@
     font-size: 24px;
 }
 
+.fa-brands,
+.fab {
+    font-family: "Font Awesome 7 Brands" !important;
+}
+
 @media only screen and (max-width: 600px) {
     .homesec2 {
         background-size: contain;
     }
     .elementor-215 .elementor-element.elementor-element-b098b93 {
         padding-top: 67%;
+    }
+    .homesec3-3 {
+        top: -14%;
     }
 }
