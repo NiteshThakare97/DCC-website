@@ -238,4 +238,15 @@
     .homesec3-3 {
         top: -14%;
     }
+    .dcc-hero {
+        background-size: contain !important;
+        background-position: bottom !important;
+    }
+    .dcc-hero__title,
+    .homesec2 h4,
+    .homesec3 .elementor-element-cdf4adf h4,
+    .elementor-215 .elementor-element.elementor-element-2caebfc .title {
+        font-size: 28px !important;
+        line-height: 36px;
+    }
 }
